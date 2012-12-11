@@ -1,6 +1,6 @@
 %define	module	cssselect
 %define name	python-%{module}
-%define version 0.7.1
+%define version 0.6.1
 %define release 1
 
 Summary: Library for parsing CSS3 selectors and translating them to XPath 1.0
@@ -34,3 +34,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %defattr(-,root,root)
 %doc AUTHORS CHANGES LICENSE README.rst
 %py_sitedir/%{module}*
+
+
+%changelog
+* Tue May 08 2012 Lev Givon <lev@mandriva.org> 0.6.1-1
++ Revision: 797547
+- imported package python-cssselect
+
