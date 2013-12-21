@@ -5,13 +5,12 @@
 
 Summary: Library for parsing CSS3 selectors and translating them to XPath 1.0
 Name:	 %{name}
-Version: %{version}
-Release: %{release}
-Source0: http://pypi.python.org/packages/source/c/%{module}/%{module}-%{version}.tar.gz
+Version: 0.8
+Release: 1
+Source0: http://pypi.python.org/packages/source/c/cssselect/cssselect-%{version}.tar.gz
 License: BSD
 Group:	 Development/Python
 Url:	 http://packages.python.org/cssselect/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires:	python-setuptools
 
@@ -24,20 +23,18 @@ engine to find the matching elements in an XML or HTML document.
 %setup -q -n %{module}-%{version}
 
 %install
-%__rm -rf %{buildroot}
 PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 
 %clean
-%__rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root)
 %doc AUTHORS CHANGES LICENSE README.rst
-%py_sitedir/%{module}*
+%py_puresitedir/%{module}*
 
 
 %changelog
 * Tue May 08 2012 Lev Givon <lev@mandriva.org> 0.6.1-1
 + Revision: 797547
 - imported package python-cssselect
+
 
