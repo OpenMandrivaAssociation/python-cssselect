@@ -1,2 +1,4 @@
+removed_sources:
+  cssselect-0.6.1.tar.gz: a0c379438def2267e29de3783a89ab1d9280e55d
 sources:
-  "cssselect-0.6.1.tar.gz": a0c379438def2267e29de3783a89ab1d9280e55d
+  cssselect-0.8.tar.gz: 553392543967dc9178967613b17f4c4b1420001c
