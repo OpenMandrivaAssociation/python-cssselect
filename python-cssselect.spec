@@ -1,7 +1,5 @@
 %define	module	cssselect
 %define name	python-%{module}
-%define version 0.6.1
-%define release 1
 
 Summary: Library for parsing CSS3 selectors and translating them to XPath 1.0
 Name:	 %{name}
