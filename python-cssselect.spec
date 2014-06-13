@@ -4,7 +4,7 @@
 Summary: Library for parsing CSS3 selectors and translating them to XPath 1.0
 Name:	 %{name}
 Version: 0.9.1
-Release: 1
+Release: 2
 Source0: https://pypi.python.org/packages/source/c/cssselect/cssselect-%{version}.tar.gz
 License: BSD
 Group:	 Development/Python
