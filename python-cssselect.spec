@@ -3,7 +3,7 @@
 Summary: Library for parsing CSS3 selectors and translating them to XPath 1.0
 Name:	 python-%{module}
 Version: 1.0.3
-Release: 1
+Release: 2
 Source0: https://github.com/scrapy/cssselect/archive/v%{version}/%{name}-%{version}.tar.gz
 License: BSD
 Group:	 Development/Python
@@ -19,6 +19,12 @@ engine to find the matching elements in an XML or HTML document.
 %package -n python2-%{module}
 Summary:       Library for parsing CSS3 selectors and translating them to XPath 1.0
 Group:          Development/Python
+BuildRequires:	python2-setuptools
+
+%description -n python2-%{module}
+cssselect parses CSS3 Selectors and translate them to XPath 1.0
+expressions. Such expressions can be used in lxml or another XPath
+engine to find the matching elements in an XML or HTML document.
 
 %prep
 %setup -q -n %{module}-%{version}
