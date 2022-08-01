@@ -3,7 +3,7 @@
 Summary: Library for parsing CSS3 selectors and translating them to XPath 1.0
 Name:	 python-%{module}
 Version:	1.1.0
-Release:	3
+Release:	4
 Source0: https://github.com/scrapy/cssselect/archive/v%{version}/%{name}-%{version}.tar.gz
 License: BSD
 Group:	 Development/Python
