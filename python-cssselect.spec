@@ -7,7 +7,7 @@ Release:	2
 Source0: https://github.com/scrapy/cssselect/archive/v%{version}/%{name}-%{version}.tar.gz
 License: BSD
 Group:	 Development/Python
-Url:	 http://packages.python.org/cssselect/
+Url:	 https://packages.python.org/cssselect/
 BuildArch: noarch
 BuildRequires:	python-setuptools
 
