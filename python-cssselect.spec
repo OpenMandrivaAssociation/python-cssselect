@@ -2,7 +2,7 @@
 
 Name:	 python-cssselect
 Version:	1.4.0
-Release:	1
+Release:	2
 License:	BSD
 Summary:	Library for parsing CSS3 selectors and translating them to XPath 1.0
 Group:	 	Development/Python
